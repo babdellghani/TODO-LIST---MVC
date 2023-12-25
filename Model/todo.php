@@ -2,7 +2,7 @@
 require_once 'Controller/todoController.php';
 
 function connect() {
-    return new PDO('mysql:host=localhost;dbname=project2', 'root', '');
+    return new PDO('mysql:host=localhost;dbname=database', 'root', '');
 }
 
 function counts() {
